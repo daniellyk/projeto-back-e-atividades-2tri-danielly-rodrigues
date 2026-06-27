@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Inicial e Formulários</title>
+</head>
+<body>
+
+
+
+    <h2>Cadastro de Usuário</h2>
+    <form action="#" method="POST">
+        <p>
+            <label>Nome:</label><br>
+            <input type="text" name="nome" required>
+        </p>
+        <p>
+            <label>E-mail:</label><br>
+            <input type="email" name="email" required>
+        </p>
+        <p>
+            <label>Senha:</label><br>
+            <input type="password" name="senha" required>
+        </p>
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <hr>
+
+   
+    <h2>Cadastro de Tarefa</h2>
+    <form action="#" method="POST">
+        <p>
+            <label>Título:</label><br>
+            <input type="text" name="titulo" required>
+        </p>
+        <p>
+            <label>Descrição:</label><br>
+            <textarea name="descricao" rows="3"></textarea>
+        </p>
+        <p>
+            <label>Prioridade:</label><br>
+            <select name="prioridade">
+                <option value="baixa">Baixa</option>
+                <option value="media">Média</option>
+                <option value="alta">Alta</option>
+            </select>
+        </p>
+        <button type="submit">Salvar Tarefa</button>
+    </form>
+
+    <hr>
+
+  
+    <h2>Reserva de Espaço da Escola</h2>
+    <form action="#" method="POST">
+        <p>
+            <label>Nome:</label><br>
+            <input type="text" name="nome_reserva" required>
+        </p>
+        <p>
+            <label>Turma:</label><br>
+            <input type="text" name="turma" required>
+        </p>
+        <p>
+            <label>Horário:</label><br>
+            <input type="time" name="horario" required>
+        </p>
+        <button type="submit">Reservar</button>
+    </form>
+
+    <hr>
+
+  
+    <h2>Login</h2>
+    <form action="#" method="POST">
+        <p>
+            <label>E-mail:</label><br>
+            <input type="email" name="login_email" required>
+        </p>
+        <p>
+            <label>Senha:</label><br>
+            <input type="password" name="login_senha" required>
+        </p>
+        <button type="submit">Entrar</button>
+    </form>
+
+    <hr>
+
+
+    <h2>Contato para a Coordenação</h2>
+    <form action="#" method="POST">
+        <p>
+            <label>Assunto:</label><br>
+            <input type="text" name="assunto" required>
+        </p>
+        <p>
+            <label>Mensagem:</label><br>
+            <textarea name="mensagem" rows="4" required></textarea>
+        </p>
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
