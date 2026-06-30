@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade 5 - Layout com Flexbox</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    .barra-superior {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #222;
+      color: white;
+      padding: 15px 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    .btn-sair {
+      background-color: #ff4d4d;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .menu-horizontal {
+      display: flex;
+      background-color: #e0e0e0;
+      padding: 12px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    .menu-horizontal a {
+      color: #333;
+      text-decoration: none;
+      margin-right: 20px;
+      font-weight: bold;
+    }
+
+    .tela-duas-colunas {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .coluna-menu {
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      min-width: 150px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+    }
+
+    .coluna-menu a {
+      color: #0066cc;
+      text-decoration: none;
+      padding: 8px 0;
+    }
+
+    .coluna-conteudo {
+      flex: 1;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+    }
+
+    .quatro-cartoes {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 30px;
+    }
+
+    .cartao {
+      flex: 1;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .secao-avisos {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .card-aviso {
+      flex: 1;
+      min-width: 250px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+    }
+
+    .card-aviso h3 {
+      margin-top: 0;
+      color: #cc0000;
+    }
+
+    .card-aviso p {
+      line-height: 1.5;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="barra-superior">
+    <div>titulo</div>
+    <button class="btn-sair">botao</button>
+  </div>
+
+  <div class="menu-horizontal">
+    <a href="#">lululu</a>
+    <a href="#">lelelele</a>
+    <a href="#">lalalal</a>
+  </div>
+
+  <div class="tela-duas-colunas">
+    <div class="coluna-menu">
+      <a href="#">aaaaaa</a>
+      <a href="#">bbbbbb</a>
+      <a href="#">cccccc</a>
+    </div>
+    <div class="coluna-conteudo">
+      <h2>Conteúdo Principal</h2>
+      <p>1234567890</p>
+    </div>
+  </div>
+
+  <h2>sksksksksksksksk</h2>
+  <div class="quatro-cartoes">
+    <div class="cartao"><h4>ola</h4><p>12e</p></div>
+    <div class="cartao"><h4>hola</h4><p>2q</p></div>
+    <div class="cartao"><h4>hi</h4><p>d5</p></div>
+    <div class="cartao"><h4>nihao</h4><p>a</p></div>
+  </div>
+
+  <h2>Avisos</h2>
+  <div class="secao-avisos">
+    <div class="card-aviso">
+      <h3>Importante</h3>
+      <p>papandohojeeeew</p>
+    </div>
+    <div class="card-aviso">
+      <h3>Manutenção</h3>
+      <p>ayayayayayay</p>
+    </div>
+    <div class="card-aviso">
+      <h3>Reunião</h3>
+      <p>uiuiuiuiuiuiuioiuiiui</p>
+    </div>
+  </div>
+
+</body>
+</html>

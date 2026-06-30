@@ -30,7 +30,7 @@ app.get('/turmas', (req, res) => {
     res.json(['Turma A', 'Turma B', 'Turma C']);
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, () => {cd 
     console.log(`http://localhost:${PORT}/usuarios`);
     console.log(`http://localhost:${PORT}/tarefas`);
     console.log(`http://localhost:${PORT}/reservas`);

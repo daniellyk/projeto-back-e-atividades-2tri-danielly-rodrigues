@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade 6 - Componentes de Interface</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    h1, h2 {
+      color: #2b6cb0;
+    }
+
+    .card {
+      background-color: white;
+      padding: 16px;
+      margin-bottom: 12px;
+      border-radius: 8px;
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.08);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #2b6cb0;
+    }
+
+    .card p {
+      margin-bottom: 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: white;
+      margin-bottom: 30px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #2b6cb0;
+      color: white;
+    }
+
+    .botao-acao {
+      display: inline-block;
+      padding: 12px 20px;
+      background-color: #2b6cb0;
+      color: white;
+      text-decoration: none;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-bottom: 30px;
+    }
+
+    .botao-acao:hover {
+      background-color: #1a4f7c;
+    }
+
+    .lista-tarefas {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 30px;
+    }
+
+    .card-tarefa {
+      background-color: white;
+      padding: 12px 16px;
+      border-radius: 6px;
+      border-left: 4px solid #e53e3e;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    .painel-container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      border: 1px solid #e2e8f0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Painel Administrativo</h1>
+
+  <button class="botao-acao">Abrir Formulário de Cadastro</button>
+
+  <h2>Mural de Avisos</h2>
+  <div class="card">
+    <h3>Aviso 1</h3>
+    <p>Asdfg hjkl qwertyuiop zxcvbnm poiuytrewq asdfghjkl zxcvbnm.</p>
+  </div>
+
+  <div class="card">
+    <h3>Aviso 2</h3>
+    <p>Qwerty uiopasdfgh jklzxcv bnmpoiuyt rewqasdfgh jklzxcvbnm.</p>
+  </div>
+
+  <div class="card">
+    <h3>Aviso 3</h3>
+    <p>Zxcvbnm lkjhgfdsa qwertyuiop mnbvcxz asdfghjkl poiuytrewq.</p>
+  </div>
+
+  <h2>Lista de Tarefas</h2>
+  <div class="lista-tarefas">
+    <div class="card-tarefa">
+      <strong>Tarefa 1:</strong> Asdfghjkl qwertyuiop.
+    </div>
+    <div class="card-tarefa">
+      <strong>Tarefa 2:</strong> Zxcvbnmqwerty uiopasdfgh.
+    </div>
+    <div class="card-tarefa">
+      <strong>Tarefa 3:</strong> Poiuytrewq lkjhgfdsa.
+    </div>
+  </div>
+
+  <div class="painel-container">
+    <h2>Painel Geral</h2>
+    <table>
+      <tr>
+        <th>Nome</th>
+        <th>Turma</th>
+        <th>Status de Presença</th>
+      </tr>
+      <tr>
+        <td>Asdfghjkl</td>
+        <td>Qwerty 1</td>
+        <td>Zxcvbnm</td>
+      </tr>
+      <tr>
+        <td>Poiuytrew</td>
+        <td>Qwerty 2</td>
+        <td>Lkjhgfd</td>
+      </tr>
+      <tr>
+        <td>Mnbvcxzlk</td>
+        <td>Qwerty 1</td>
+        <td>Asdfghj</td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>
