@@ -1,8 +1,4 @@
 
-
-
-
-
 console.log("danielly");
 console.log("Canto do saber");
 
@@ -11,7 +7,7 @@ console.log("Conectando");
 console.log("Sistema pronto");
 
 
-const saudacaoEquipe = "oi, vamos construir algo incrível juntos hoje";
+const saudacaoEquipe = "oi, vamos construir algo incrível";
 console.log(saudacaoEquipe);
 
 
